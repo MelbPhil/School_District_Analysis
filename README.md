@@ -46,15 +46,36 @@ _Origional dataset:_
 _THS ninth graders removed:_
 ![Post_Top_5](https://user-images.githubusercontent.com/106599446/174913087-28045751-3582-478f-86dc-6402cb1ca47f.png)
 
-
-
+What's perhaps less obvious in the above images, but important to note, is that Thomas High School was ranked fourth in "Average Math Score" when including the ninth grader's scores, and then dropped to sixth place once they were removed. Similarly, THS was ranked first in "% Passing reading" when including the ninth grader's scores, and then fell to third place once those students were removed. It is worth noting that the schools in this range were all quite close in terms of score, and that the slight changes for THS' scores resulted in losing multiple places on the leaderboards in the previously mentioned categories.
 
 - Math and reading scores by grade:
 
-The only differences seen in this 
+_Origional dataset:_
+
+![Pre_Reading_By_Grade](https://user-images.githubusercontent.com/106599446/174919524-3d3239fc-7f90-4215-92b3-02b22286c08b.png)
+
+Unsurprisingly, the only differences here after removing the THS ninth graders in the value for Thomas High School ninth graders themselves, which have no values listed for either math or reading. Because we segmented the data by schools and grades, the data that we removed does not have any impact on the other rows or columns in these DataFrames.
 
 - Scores by school spending:
+
+The removal of THS ninth graders scores has a negligable impact on the results for scores broken down by school spending. In both 
+
+_THS ninth graders removed:_
+
+![Post_Scores_By_Spending](https://user-images.githubusercontent.com/106599446/174919587-88c5f78b-2020-499b-a3cc-3627a156140f.png)
+
+
 - Scores by school size:
+
+_THS ninth graders removed:_
+
+![Post_Scores_By_Size](https://user-images.githubusercontent.com/106599446/174920002-80a92ef6-ccfc-4f60-bf83-bfd712ce9130.png)
+
+
 - Scores by school type:
+
+_THS ninth graders removed:_
+
+![Post_Scores_By_Type](https://user-images.githubusercontent.com/106599446/174920061-f09fb9d0-93dd-4b3e-881c-86b969938406.png)
 
 ## School District Analysis Summary
